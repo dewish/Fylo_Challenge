@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/_base.scss",
+        "../sass/_header.scss",
+        "../sass/_footer.scss",
+        "../sass/_mediaQuery.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
