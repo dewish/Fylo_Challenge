@@ -1,0 +1,119 @@
+//? Call to action Input + Button //
+
+.callToAction {
+    position: relative;
+    background-color: $--color-primary-dark-3;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    margin: 0 25%;
+    z-index: 100;
+    top: 100px;
+    padding: 4rem 5rem;
+    box-shadow: 0.5em 1rem 1rem 2px rgba(0, 0, 0, 0.2);
+
+    h1 {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+        max-width: 80%;
+        padding-bottom: 2rem;
+    }
+}
+.btn-CallToAction {
+    padding: 1.2rem 3rem;
+}
+
+.email {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: grey;
+    border-radius: 5rem;
+    border: none;
+    background: white;
+    cursor: pointer;
+    margin-right: 2rem;
+    width: 50rem;
+    height: 4rem;
+    padding: 0 2rem;
+}
+
+//? Footer //
+
+footer {
+    background-color: $--color-primary-dark-2;
+    color: #fff;
+    padding: 0rem 0rem 5rem;
+    padding-top: 15rem;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner_footer {
+    display: flex;
+    width: 40%;
+}
+
+.list__item {
+    margin-bottom: 2rem;
+    list-style: none;
+    cursor: pointer;
+    &:hover,
+    &:active {
+        background: -webkit-linear-gradient(rgba(101, 226, 217, 1), rgba(51, 158, 204, 1));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.1s;
+    }
+}
+
+.circle {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+}
+
+.social-links a {
+    display: inline-flex;
+    color: #fff;
+    width: 4rem;
+    height: 4rem;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-right: 3rem;
+    &:hover,
+    &:active {
+        color: $--color-blue-light-1;
+        transition: all 0.1s;
+    }
+}
+
+.logo-white {
+    padding-bottom: 3rem;
+}
+.symbols {
+    display: flex;
+}
+.symbols i {
+    padding-right: 2rem;
+}

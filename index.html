@@ -1,13 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.google.com/specimen/Open+Sans:400,700">
+
+    <title>Fylo | All your files in one secure location</title>
+
 </head>
+
 <body>
+
+    <!-- Navigation Menu -->
+
+    <div class="container">
+        <section class="nav">
+            <img src="images/logo.svg" alt="Logo of Fylo" class="nav__logo">
+            <nav class="navigation">
+                <ul class="nav__list nav__mobile">
+                    <li class="nav__item">
+                    <a href="#section--1" class="nav__link">Features</a>
+                    </li>
+                    <li class="nav__item">
+                    <a href="#section--2" class="nav__link">Team</a>
+                    </li>
+                    <li class="nav__item">
+                    <a href="#section--3" class="nav__link">Sign In</a>
+                    </li>
+                </ul>
+                <button class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </section>
+    </div>
+
+    <!-- about -->
+
+    <div class="wave-bg">
+        <header class="container about">
+            <img src="images/illustration-intro.png" alt="Intro image" class="about__image">
+            <h1 class="about__text_big">All your files in one secure location, <br> accessible anywhere.</h1>
+            <h3 class="about__text_small">Fylo stores all your most important files in one secure location. <br>
+                Acces them wherever you need, share and collaborate with <br> frineds, family and co-workers.</h3>
+            <button class="btn btn-main">Get Started</button>
+        </header>
+    </div>
+
+
+    <!-- main content -->
+
+    <div class=" bg-color">
+        <main class="container">
+            <section class="container__feature">
+
+                <div class="feature" id="section--1">
+                    <div class="feature__box">
+                        <div>
+                            <img src="images/icon-access-anywhere.svg" alt="Devices">
+                        </div>
+                        <h3 class="feature__text feature__text--head">Access your files, anywhere</h3>
+                        <p class="feature__text feature__text--note">
+                            The ability to use a smartphone, tablet, or computer to access
+                            your account means your files follow you everywhere.
+                        </p>
+                    </div>
+
+                    <div class="feature__box">
+                        <div>
+                            <img src="images/icon-security.svg" alt="Shield">
+                        </div>
+                        <h3 class="feature__text feature__text--head">Security you can trust</h3>
+                        <p class="feature__text feature__text--note">
+                            2-factor authentication and user-controlled encryption are just a
+                            couple of the security features we allow to help secure your
+                            files.
+                        </p>
+                    </div>
+
+                    <div class="feature__box">
+                        <div>
+                            <img src="images/icon-collaboration.svg" alt="Collaboration">
+                        </div>
+                        <h3 class="feature__text feature__text--head">Real-time collaboration</h3>
+                        <p class="feature__text feature__text--note">
+                            Securely share files and folders with friends, family and
+                            colleagues for live collaboration. No email attachments required.
+                        </p>
+                    </div>
+
+                    <div class="feature__box">
+                        <div>
+                            <img src="images/icon-any-file.svg" alt="Files">
+                        </div>
+                        <h3 class="feature__text feature__text--head">Store any type of file</h3>
+                        <p class="feature__text feature__text--note">
+                            Whether you're sharing holidays photos or work documents, Fylo has
+                            you covered allowing for all file types to be securely stored and
+                            shared.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- extra content -->
+
+        <section class="container promo_section" id="section--2">
+            <img src="images/illustration-stay-productive.png" alt="Cards image" class="feature__big--img">
+            <div class="feature__note">
+                <h2 class="feature__note feature__note--head">
+                    Stay productive,
+                    <br />
+                    wherever you are
+                </h2>
+                <p class="feature__note feature__note--description"> Never let location be an issue when accessing your
+                    files. Fylo has you covered for all of your file storage needs.</p>
+                <p class="feature__note feature__note--description"> Securely share files and folders with friends,
+                    family
+                    and colleagues for live collaboration. No email attachments required.</p>
+
+                <button class="feature__button">See how Fylo works</button>
+            </div>
+        </section>
+
+        <section>
+            <div class="card_container">
+                <div class="card">
+                    <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our
+                        team has become a well-oiled collaboration machine.</p>
+                    <div class="profile">
+                        <img src="images/profile-1.jpg" alt="">
+                        <div class="profile__text">
+                            <h2>Satish Patel</h2>
+                            <p>Founder & CEO, Huddle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our
+                        team has become a well-oiled collaboration machine.</p>
+                    <div class="profile">
+                        <img src="images/profile-2.jpg" alt="">
+                        <div class="profile__text">
+                            <h2>Bruce McKenzie</h2>
+                            <p>Founder & CEO, Huddle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our
+                        team has become a well-oiled collaboration machine.</p>
+
+                    <div class="profile">
+                        <img src="images/profile-3.jpg" alt="">
+                        <div class="profile__text">
+                            <h2>Iva Boyd</h2>
+                            <p>Founder & CEO, Huddle</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Call to action box -->
+
+    <div class=" bg-color">
+        <div class="callToAction" id="section--3">
+            <h1> Get early access today </h1>
+            <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+                questions, our support team would be happy to help you.</p>
+            <div class="email-box">
+                <input class="email" type="email" name="email" placeholder="example@fylo.com">
+                <button class="btn btn-CallToAction">
+                    Get Started For Free
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer and Contact Links -->
+
+    <footer>
+
+        <div class="container">
+            <img class="logo-white" src="images/logo.svg" alt="Logo">
+            <div class="main-footer">
+
+
+                <div class="inner_footer">
+                    <ul>
+                        <div class="symbols">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <li class="list__item">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore
+                                    et
+                                    dolore magna aliqua
+                                </p>
+                            </li>
+                        </div>
+                        <div class="symbols">
+                            <i class="fas fa-phone-alt"></i>
+                            <li class="list__item">
+                                +1-543-123-4567
+                            </li>
+                        </div>
+                        <div class="symbols">
+                            <i class="far fa-envelope"></i>
+                            <li class="list__item">
+                                example@huddle.com
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="list__one">
+                        <li class="list__item">
+                            About Us
+                        </li>
+                        <li class="list__item">
+                            Jobs
+                        </li>
+                        <li class="list__item">
+                            Press
+                        </li>
+                        <li class="list__item">
+                            Blog
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="list__two">
+                        <li class="list__item">
+                            Contact Us
+                        </li>
+                        <li class="list__item">
+                            Terms
+                        </li>
+                        <li class="list__item">
+                            Privacy
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="social-links">
+                        <li><a class="circle" href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a class="circle" href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li><a class="circle" href="https://www.instragram.com"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+      <!--  Pop up Menu = Sign In -->
     
+  <section class="popup modal">
+    <div class="popup__content">
+      <i class="closeBtn fas fa-times"></i>
+      <h2 class="popup__text__heading">Sign in to your account</h2>
+      <form class="popup__content__form" method="POST">
+        <input class="inputs" type="email" name="signin-email" value="" required placeholder="Email Address">
+        <input class="inputs" type="password" name="signin-password" value="" required placeholder="Password">
+        <p class="popup__text">By clicking Sign In, you agree to our
+          <a class="popup__text__link" href="#">Terms of
+            Use</a> and our
+          <a class="popup__text__link" href="#">Privacy Policy</a></p>
+        <button class="btn btn__form" type="submit">Sign in</button>
+      </form>
+      <a class="popup__text__link" href="#">Forgot your password?</a>
+    </div>
+  </section>
+
+    <!--  Scripts -->
+
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="index.js"></script>
+
 </body>
+
 </html>
