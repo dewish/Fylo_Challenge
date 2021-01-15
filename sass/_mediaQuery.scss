@@ -1,12 +1,6 @@
-@media (max-width: 1660px) {
+@media (max-width: 1650px) {
     .email {
         width: 40rem;
-    }
-}
-
-@media (max-width: 1550px) {
-    .card_container {
-        width: 80%;
     }
 }
 
@@ -16,7 +10,7 @@
     }
     footer {
         padding: 0rem 0rem 2rem;
-        padding-top: 11rem;
+        padding-top: 15rem;
     }
 }
 
@@ -34,12 +28,9 @@
     .btn-CallToAction {
         width: 100%;
     }
-}
-
-@media (max-width: 1200px) {
     .card_container {
         width: 90%;
-        padding-top: 0rem;
+        
     }
 }
 

@@ -28,9 +28,7 @@
                     <li class="nav__item">
                     <a href="#section--2" class="nav__link">Team</a>
                     </li>
-                    <li class="nav__item">
-                    <a href="#section--3" class="nav__link">Sign In</a>
-                    </li>
+                     <li class="nav__item"><a href="#"class="nav__link signInModal">Sign In</a></li>
                 </ul>
                 <button class="hamburger">
                     <i class="fas fa-bars"></i>
@@ -38,6 +36,26 @@
             </nav>
         </section>
     </div>
+
+
+      <!--  Pop up Menu = Sign In -->
+    
+  <section class="popup hidden ">
+    <div class="popup__content">
+      <i class="closeBtn fas fa-times"></i>
+      <h2 class="popup__text__heading">Sign in to your account</h2>
+      <form class="popup__content__form" method="POST">
+        <input class="inputs" type="email" name="signin-email" value="" required placeholder="Email Address">
+        <input class="inputs" type="password" name="signin-password" value="" required placeholder="Password">
+        <p class="popup__text">By clicking Sign In, you agree to our
+          <a class="popup__text__link" href="#">Terms of
+            Use</a> and our
+          <a class="popup__text__link" href="#">Privacy Policy</a></p>
+        <button class="btn btn__form" type="submit">Sign in</button>
+      </form>
+      <a class="popup__text__link" href="#">Forgot your password?</a>
+    </div>
+  </section>
 
     <!-- about -->
 
@@ -47,7 +65,7 @@
             <h1 class="about__text_big">All your files in one secure location, <br> accessible anywhere.</h1>
             <h3 class="about__text_small">Fylo stores all your most important files in one secure location. <br>
                 Acces them wherever you need, share and collaborate with <br> frineds, family and co-workers.</h3>
-            <button class="btn btn-main">Get Started</button>
+            <button class="btn btn-main ">Get Started</button>
         </header>
     </div>
 
@@ -265,24 +283,6 @@
         </div>
     </footer>
 
-      <!--  Pop up Menu = Sign In -->
-    
-  <section class="popup modal">
-    <div class="popup__content">
-      <i class="closeBtn fas fa-times"></i>
-      <h2 class="popup__text__heading">Sign in to your account</h2>
-      <form class="popup__content__form" method="POST">
-        <input class="inputs" type="email" name="signin-email" value="" required placeholder="Email Address">
-        <input class="inputs" type="password" name="signin-password" value="" required placeholder="Password">
-        <p class="popup__text">By clicking Sign In, you agree to our
-          <a class="popup__text__link" href="#">Terms of
-            Use</a> and our
-          <a class="popup__text__link" href="#">Privacy Policy</a></p>
-        <button class="btn btn__form" type="submit">Sign in</button>
-      </form>
-      <a class="popup__text__link" href="#">Forgot your password?</a>
-    </div>
-  </section>
 
     <!--  Scripts -->
 
