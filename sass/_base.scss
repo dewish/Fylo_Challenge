@@ -66,6 +66,10 @@ body {
 
 //? Pop up section for SIGN IN //
 
+// .hidden {
+//     display: none;
+// }
+
 .popup {
     display: none;
     position: fixed;
@@ -104,6 +108,7 @@ body {
         }
     }
 }
+
 
 @keyframes modalopen {
     from {
