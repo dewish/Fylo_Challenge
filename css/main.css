@@ -156,6 +156,7 @@ body {
   text-transform: uppercase;
   display: inline-block;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 .nav__link:hover, .nav__link:active {
@@ -302,7 +303,7 @@ body {
   width: 65%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 15rem;
+  padding-top: 12rem;
   padding-bottom: 8rem;
 }
 
@@ -501,6 +502,23 @@ footer {
   .container {
     width: 90%;
   }
+  .promo_section {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-bottom: 0rem;
+  }
+  .feature__note--head {
+    font-size: 4rem;
+    padding-bottom: 4rem;
+  }
+  .feature__note--description {
+    width: 80%;
+  }
+  .feature__big--img {
+    margin-right: 0rem;
+    padding-bottom: 15rem;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -531,26 +549,6 @@ footer {
   }
 }
 
-@media (max-width: 750px) {
-  .main-footer {
-    display: flex;
-    flex-direction: column;
-  }
-  footer {
-    padding-left: 5rem;
-    padding-bottom: 1rem;
-  }
-  .inner_footer {
-    width: 100%;
-  }
-  .list__one {
-    padding: 3rem 0;
-  }
-  .callToAction {
-    margin: 0 5%;
-  }
-}
-
 @media (max-width: 780px) {
   .about__image {
     width: 80%;
@@ -561,6 +559,23 @@ footer {
 }
 
 @media (max-width: 755px) {
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+  }
+  .inner_footer {
+    width: 70%;
+  }
+  .list__one {
+    padding: 3rem 0;
+  }
+  .callToAction {
+    margin: 0 5%;
+  }
   .feature {
     display: flex;
     flex-direction: column;
@@ -643,15 +658,6 @@ footer {
   }
 }
 
-@keyframes modalopen {
-  from {
-    opacity: 0.5;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 @media (max-width: 500px) {
   .about__text_small {
     font-size: 1.3rem;
@@ -664,6 +670,15 @@ footer {
   }
   .nav__logo {
     width: 30%;
+  }
+}
+
+@keyframes modalopen {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
   }
 }
 
