@@ -39,13 +39,13 @@ document.querySelector(".nav__list").addEventListener("click", function (e) {
 });
 
 
-
 ///////////////////////////////////////
 // Pop up section for SIGN IN //
 
 const popup = document.querySelector(".popup");
 const btnOpenModal = document.querySelector(".signInModal");
 const btnCloseModal = document.querySelector(".closeBtn");
+const btnOpenModal_2 = document.querySelector(".signInModal_2");
 
 // btnOpenModal.addEventListener("click", function() {
 //   popup.style.display = "block";
@@ -70,30 +70,29 @@ const closePopuo = function () {
 
 btnCloseModal.addEventListener("click", closePopuo)
 btnOpenModal.addEventListener("click", openPopup);
+btnOpenModal_2.addEventListener("click", openPopup)
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == popup) {
+    popup.style.display = "none";
+  }
+}
 
 
+// // Hamburger MENU
+const hamburger = document.querySelector(".hamburger");
+const navMob = document.querySelector(".nav__mobile");
+
+const openBurgerMenu = function () {
+  navMob.classList.toggle("show");
+}
+
+hamburger.addEventListener("click", openBurgerMenu);
 
 
-
-
-
-
-
-
-
-// FUNCTION TO CLOSE MODAL IF OUTSIDE CLICK
-// function outsideClick(e) {
-//     if (e.target == popup) {
-//       popup.style.display = 'none';
-//     }
-
-// }
-
-// // GET MODAL ELEMENT FOR HAMBURGER MENU
-// const hamburger = document.getElementById("hamburger");
-// const navUL = document.getElementById("nav__mobile");
-
-// // Hamburger menu on small screens open X close
+// Hamburger menu on small screens open X close
 // hamburger.addEventListener("click", () => {
-//     navUL.classList.toggle("show");
+//     navMob.classList.toggle("show");
 // })
+

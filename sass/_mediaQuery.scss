@@ -30,13 +30,32 @@
     }
     .card_container {
         width: 90%;
-        
     }
 }
 
 @media (max-width: 1100px) {
     .container {
         width: 90%;
+    }
+    .promo_section {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding-bottom: 0rem;
+    }
+    .feature {
+        &__note--head {
+            font-size: 4rem;
+            padding-bottom: 4rem;
+        }
+        &__note--description {
+            width: 80%;
+        }
+
+        &__big--img {
+            margin-right: 0rem;
+            padding-bottom: 15rem;
+        }
     }
 }
 
@@ -68,28 +87,6 @@
     }
 }
 
-@media (max-width: 750px) {
-    .main-footer {
-        display: flex;
-        flex-direction: column;
-    }
-    footer {
-        padding-left: 5rem;
-        padding-bottom: 1rem;
-    }
-    .inner_footer {
-        width: 100%;
-    }
-
-   
-
-    .list__one {
-        padding: 3rem 0;
-    }
-    .callToAction {
-        margin: 0 5%;
-    }
-}
 
 @media (max-width: 780px) {
     .about {
@@ -103,6 +100,25 @@
 }
 
 @media (max-width: 755px) {
+
+    .main-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        padding-left: 5rem;
+        padding-bottom: 1rem;
+    }
+    .inner_footer {
+        width: 70%;
+    }
+
+    .list__one {
+        padding: 3rem 0;
+    }
+    .callToAction {
+        margin: 0 5%;
+    }
     .feature {
         display: flex;
         flex-direction: column;
@@ -194,15 +210,6 @@
     }
 }
 
-@keyframes modalopen {
-    from {
-        opacity: 0.5;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
 @media (max-width: 500px) {
     .about {
         &__text_small {
@@ -218,6 +225,16 @@
         &__logo {
             width: 30%;
         }
+    }
+}
+
+
+@keyframes modalopen {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
     }
 }
 
@@ -247,5 +264,3 @@
         }
     }
 }
-
-
